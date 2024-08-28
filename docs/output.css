@@ -577,12 +577,29 @@ video {
   margin-bottom: 8rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
 
 .mt-40 {
   margin-top: 10rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mt-\[-10\] {
+  margin-top: -10;
+}
+
+.mt-\[-20\] {
+  margin-top: -20;
 }
 
 .flex {
@@ -607,6 +624,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.w-\[80vw\] {
+  width: 80vw;
 }
 
 .max-w-\[90\%\] {
@@ -822,6 +843,11 @@ video {
 .py-36 {
   padding-top: 9rem;
   padding-bottom: 9rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pb-5 {
