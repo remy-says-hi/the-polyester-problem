@@ -572,6 +572,11 @@ video {
   }
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-32 {
   margin-bottom: 8rem;
 }
@@ -666,6 +671,14 @@ video {
 
 .basis-4\/5 {
   flex-basis: 80%;
+}
+
+.basis-2\/6 {
+  flex-basis: 33.333333%;
+}
+
+.basis-4\/6 {
+  flex-basis: 66.666667%;
 }
 
 .grid-cols-1 {
@@ -977,6 +990,14 @@ video {
 
   .sm\:w-\[40vw\] {
     width: 40vw;
+  }
+
+  .sm\:basis-1\/5 {
+    flex-basis: 20%;
+  }
+
+  .sm\:basis-4\/5 {
+    flex-basis: 80%;
   }
 }
 
